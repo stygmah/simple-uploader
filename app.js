@@ -48,6 +48,7 @@ app.post('/upload', (req, res)=>{
   // parse the incoming request containing the form data
   form.parse(req);
 
+  res.status(200).send();
 });
 
 
